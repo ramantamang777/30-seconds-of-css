@@ -1,4 +1,8 @@
 /* This file is here only to tag the repository language. Do not delete, please! */
 html {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+
