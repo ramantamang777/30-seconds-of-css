@@ -1,0 +1,36 @@
+<html>
+  <body class="dark-mode">
+    <button class="change btn-dark"> OFF </button>
+  </body>
+</html>
+
+
+<script>
+   $(" .change").on("click", function() {
+     if( $("body").hasClass("dark"))
+     {
+       $("body").removeClass("dark");
+       $(".change").text("OFF");
+     }
+     else{
+       $("body").addClass("dark");
+       $(".change").text("ON");
+     }
+   });
+ </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
